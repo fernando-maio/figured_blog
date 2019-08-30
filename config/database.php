@@ -63,6 +63,12 @@ return [
             'engine' => null,
         ],
 
+        'sqlite' => [
+            'driver' => 'sqlite',
+            'database' => env('DB_DATABASE_TEST', database_path('database.sqlite')),
+            'prefix' => '',
+        ],
+
     ],
 
     /*

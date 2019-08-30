@@ -65,9 +65,9 @@ class CategoryController extends Controller
         
         if (!$validation->passes()) {
             return redirect()
-            ->back()
-            ->withErrors($validation)
-            ->withInput();
+                ->back()
+                ->withErrors($validation)
+                ->withInput();
         }
 
         $data = $request->all();

@@ -17,7 +17,7 @@ Route::get('/blog/post/{slug}', 'PageController@blogPostSingle')->name('blog.pos
 Auth::routes();
 
 Route::group(['middleware' => 'auth'], function () {
-    Route::group(['prefix' => 'users'], function () {                
+    Route::group(['prefix' => 'users', 'middleware' => 'editUsers'], function ($id) {
         Route::get('/edit/{user_id}', 'UserController@getEdit')->name('users.edit');
         Route::post('/edit/{user_id}', 'UserController@postEdit')->name('users.edit');
     });
