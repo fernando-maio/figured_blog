@@ -8,20 +8,19 @@ Blog Application Steps:
 User Default: maio.fernando@gmail.com
 <br>
 Password: figured
-
-.env DB Config:
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=figured
-DB_USERNAME=figured
-DB_PASSWORD=Figured#2019
-
-NEW_DB_DATABASE=figured_posts
-NEW_DB_USERNAME=figured
+<br><br>
+.env DB Config:<br>
+DB_CONNECTION=mysql<br>
+DB_HOST=127.0.0.1<br>
+DB_PORT=3306<br>
+DB_DATABASE=figured<br>
+DB_USERNAME=figured<br>
+DB_PASSWORD=Figured#2019<br>
+<br><br>
+NEW_DB_DATABASE=figured_posts<br>
+NEW_DB_USERNAME=figured<br>
 NEW_DB_PASSWORD=Figured#2019
-
-
+<br><br>
 Observations:
 <br>
 - In this project, I used: 
