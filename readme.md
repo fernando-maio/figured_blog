@@ -6,11 +6,24 @@ Blog Application Steps:
 - Run DB Seeds;
 
 User Default: maio.fernando@gmail.com
+<br>
 Password: figured
+
+.env DB Config:
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=figured
+DB_USERNAME=figured
+DB_PASSWORD=Figured#2019
+
+NEW_DB_DATABASE=figured_posts
+NEW_DB_USERNAME=figured
+NEW_DB_PASSWORD=Figured#2019
 
 
 Observations:
-
+<br>
 - In this project, I used: 
     PHP 7.2, 
     MySQL(2 instances), 
@@ -26,5 +39,6 @@ Observations:
 
 
 *IMPORTANT*
+<br>
 I had some problems to use the MongoDB lib to Laravel (jenssegers/mongodb). I tried a lot different things to fix that, but to not lose more time, I had to use 2 different instances of MySql.
 If I had more time, I could try to fix this, to change migrations structure, to be accepted by mongo and the libraries on the models that using the instance for posts and categories.
